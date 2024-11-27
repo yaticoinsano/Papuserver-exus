@@ -1,60 +1,60 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   },
   "tunnels": [
     {
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "make-translations.gl.at.ply.gg",
-          "assigned_srv": null,
+          "assigned_domain": "political-thinkpad.gl.joinmc.link",
+          "assigned_srv": "political-thinkpad.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "1ecf7bd7-f3a1-4034-a3b4-9e1aec2f6519",
-          "ip_hostname": "16.ip.gl.ply.gg",
+          "id": "821ac612-1077-401a-b647-618509ea5cf8",
+          "ip_hostname": "24.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 41080,
-          "port_start": 41079,
+          "port_end": 9808,
+          "port_start": 9807,
           "region": "global",
-          "static_ip4": "147.185.221.16",
-          "tunnel_ip": "2602:fbaf:0:1::10"
+          "static_ip4": "147.185.221.24",
+          "tunnel_ip": "2602:fbaf:0:1::18"
         },
         "status": "allocated"
       },
-      "created_at": "2024-11-27T18:43:01.578106Z",
+      "created_at": "2024-11-27T19:56:07.000606Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "0651f094-0e76-4ca8-b767-3c2a04ebd959",
-      "name": "unnamed",
+      "id": "1fb016a7-910e-4f84-b7c3-b00e5192399a",
+      "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "f05c946b-aa0d-4782-a2bb-f96f04abbddc",
-          "agent_name": "from-key-7d89",
+          "agent_id": "ef07f441-9a9d-4f6a-a881-a921c9f9a695",
+          "agent_name": "from-key-a810",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },
         "type": "agent"
       },
       "port_count": 1,
-      "port_type": "udp",
+      "port_type": "tcp",
       "proxy_protocol": null,
       "ratelimit": {
         "bytes_per_second": null,
         "packets_per_second": null
       },
       "region": "global",
-      "tunnel_type": null
+      "tunnel_type": "minecraft-java"
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "claimed": 0,
+    "desired": 0
   }
 }

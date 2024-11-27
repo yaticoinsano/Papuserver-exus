@@ -1,78 +1,80 @@
-[19:20:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[19:20:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[19:20:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:20:55] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/floodgate-spigot.jar'...
-[19:20:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/floodgate-spigot.jar' in 3586ms.
-[19:20:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[19:20:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[19:57:06] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[19:57:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[19:57:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:57:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[19:57:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Geyser-Spigot (2.5.0-SNAPSHOT), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[19:21:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:21:05] [ServerMain/INFO]: Loaded 1337 recipes
-[19:21:05] [ServerMain/INFO]: Loaded 1448 advancements
-[19:21:05] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[19:21:05] [Server thread/INFO]: Loading properties
-[19:21:05] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[19:21:06] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:21:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:21:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:21:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[19:21:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[19:21:07] [Server thread/INFO]: Default game type: SURVIVAL
-[19:21:07] [Server thread/INFO]: Generating keypair
-[19:21:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:21:07] [Server thread/INFO]: Using epoll channel type
-[19:21:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:21:07] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:21:08] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[19:21:09] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[19:21:09] [Server thread/INFO]: [floodgate] Took 991ms to boot Floodgate
-[19:21:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[19:21:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[19:21:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:21:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:21:10] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[19:21:10] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[19:21:10] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[19:21:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:21:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:21:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:21:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:21:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:21:10] [Server thread/INFO]: Preparing level "world"
-[19:21:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:21:11] [Server thread/INFO]: Preparing spawn area: 0%
-[19:21:11] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[19:21:11] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 268.0ms
-[19:21:11] [Server thread/INFO]: Preparing spawn area: 4%
-[19:21:12] [Server thread/INFO]: Preparing spawn area: 30%
-[19:21:12] [Server thread/INFO]: Time elapsed: 1155 ms
-[19:21:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:21:12] [Server thread/INFO]: Preparing spawn area: 0%
-[19:21:12] [Server thread/INFO]: Time elapsed: 237 ms
-[19:21:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:21:12] [Server thread/INFO]: Preparing spawn area: 0%
-[19:21:12] [Server thread/INFO]: Time elapsed: 96 ms
-[19:21:12] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[19:21:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[19:21:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[19:21:13] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[19:21:13] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[19:21:13] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[19:21:13] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[19:21:13] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[19:21:13] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[19:21:13] [Server thread/INFO]: [spark] Starting background profiler...
-[19:21:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:21:13] [Server thread/INFO]: [Geyser-Spigot] 
-[19:21:13] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b719 (git-master-c145c3f)
-[19:21:13] [Server thread/INFO]: [Geyser-Spigot] 
-[19:21:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:21:18] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[19:21:18] [Server thread/INFO]: [Geyser-Spigot] Done (5.229s)! Run /geyser help for help!
-[19:21:18] [Server thread/INFO]: Done preparing level "world" (8.302s)
-[19:21:18] [Server thread/INFO]: Running delayed init tasks
-[19:21:19] [Server thread/INFO]: Done (24.968s)! For help, type "help"
-[19:21:19] [ForkJoinPool.commonPool-worker-3/WARN]: [Geyser-Spigot] Missing MC locale file: en_us
-[19:21:19] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
-[19:21:19] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[19:21:20] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] Minecraft JAR has been successfully downloaded and loaded!
+[19:57:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:57:12] [ServerMain/INFO]: Loaded 1337 recipes
+[19:57:12] [ServerMain/INFO]: Loaded 1448 advancements
+[19:57:12] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[19:57:12] [Server thread/INFO]: Loading properties
+[19:57:12] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[19:57:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:57:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:57:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:57:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[19:57:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:57:14] [Server thread/INFO]: Default game type: SURVIVAL
+[19:57:14] [Server thread/INFO]: Generating keypair
+[19:57:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:57:14] [Server thread/INFO]: Using epoll channel type
+[19:57:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:57:14] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:57:15] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[19:57:16] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[19:57:16] [Server thread/INFO]: [floodgate] Took 1,050ms to boot Floodgate
+[19:57:16] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[19:57:16] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[19:57:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:57:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:57:17] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[19:57:17] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[19:57:17] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[19:57:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:57:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:57:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:57:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:57:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:57:17] [Server thread/INFO]: Preparing level "world"
+[19:57:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:57:18] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:18] [Server thread/INFO]: Preparing spawn area: 2%
+[19:57:18] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[19:57:19] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 530.7ms
+[19:57:19] [Server thread/INFO]: Preparing spawn area: 2%
+[19:57:20] [Server thread/INFO]: Preparing spawn area: 30%
+[19:57:20] [Server thread/INFO]: Time elapsed: 1965 ms
+[19:57:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:57:20] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:20] [Server thread/INFO]: Time elapsed: 249 ms
+[19:57:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:57:20] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:20] [Server thread/INFO]: Time elapsed: 87 ms
+[19:57:20] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[19:57:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[19:57:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[19:57:21] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[19:57:21] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[19:57:21] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[19:57:21] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[19:57:21] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[19:57:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[19:57:21] [Server thread/INFO]: [spark] Starting background profiler...
+[19:57:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:57:21] [Server thread/INFO]: [Geyser-Spigot] 
+[19:57:21] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b719 (git-master-c145c3f)
+[19:57:21] [Server thread/INFO]: [Geyser-Spigot] 
+[19:57:21] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:57:26] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[19:57:26] [Server thread/INFO]: [Geyser-Spigot] Done (5.127s)! Run /geyser help for help!
+[19:57:26] [Server thread/INFO]: Done preparing level "world" (9.016s)
+[19:57:26] [Server thread/INFO]: Running delayed init tasks
+[19:57:26] [Server thread/INFO]: Done (21.697s)! For help, type "help"
+[19:57:26] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[19:58:03] [User Authenticator #0/INFO]: UUID of player yato_insano is 1ff1fe89-4659-3e8f-9daa-8b79cce1cc7c
+[19:58:05] [Server thread/INFO]: yato_insano joined the game
+[19:58:05] [Server thread/INFO]: yato_insano[/127.162.135.219:42791] logged in with entity id 23 at ([world]-3.5, 71.0, 10.5)
+[20:01:03] [Server thread/INFO]: yato_insano was slain by Zombie
+[20:05:48] [Server thread/INFO]: yato_insano lost connection: Disconnected
+[20:05:48] [Server thread/INFO]: yato_insano left the game
